@@ -1,3 +1,3 @@
 class Photo < ActiveRecord::Base
-	belongs_to :places
+	belongs_to :place
 end
