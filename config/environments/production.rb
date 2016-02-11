@@ -1,4 +1,4 @@
-Nomster::Application.configure 
+Nomster::Application.configure do 
 
 AActionMailer::Base.smtp_settings = {
     :port           => ENV['MAILGUN_SMTP_PORT'],
